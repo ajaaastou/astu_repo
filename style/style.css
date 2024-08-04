@@ -1,0 +1,185 @@
+
+
+/* Color setup */
+:root {
+    --primary: #cda45e;
+    --black: rgba(0, 0, 0, 0.5);
+    --white: #ffffff;
+    --body: black;
+}
+
+/* propriétés globales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  "Poppins", sans-serif , cursive;
+}
+
+span {
+    color: var(--primary);
+}
+
+li  {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+/* navbar */
+
+#navbarr {
+    background-color: var(--black);
+    
+}
+
+#lien li a {
+    color: var(--primary);
+}
+
+#entete {
+    background-image: url("/images/about.jpg"); 
+    height: 80hv;
+
+}
+
+
+/*  partie bienvenu */
+
+#intro h1 {
+    color: var(--white);
+    font-size: 60px;
+}
+
+#intro span {
+    color: var(--primary);
+    font-size: 60px;
+}
+
+
+#intro h2 {
+    color: var(--white);
+}
+
+.btn:hover {
+    background-color:var(--gray-2)
+}
+
+#btn-intro {
+    background : transparent;
+    border: var(--primary) solid 2px;
+    border-radius: 15px;
+}
+
+#btn-intro:hover {
+    background-color: var(--primary);
+}
+
+
+/* Partie a propos  */
+
+#about {
+
+    height: 100hv;
+    margin: 0 0 0 0;
+}
+
+#about div p {
+    color: var(--body);
+    text-align: justify;
+}
+
+#about h2 {
+
+    color: var(--body);
+    font-size: 50px;
+    padding: 10px;
+}
+
+                                            /* Partie Menu */
+
+#menus h2{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.card-body {
+    background-color: var(--primary);
+}
+
+#btn-plus {
+    background : transparent;
+    border: var(--body) solid 2px;
+    border-radius: 15px;
+}
+
+#btn-plus:hover {
+    background-color: var(--primary);
+}
+
+
+/* Partie reservation */
+
+#reserv-section{
+    height: 60hv;
+
+}
+
+#reserv-section h2 {
+
+    font-size: 50px;
+    padding: 10px;
+}
+
+#formulaire {
+    border: var(--primary) solid 2px;
+    border-radius: 10px;
+}
+
+#btn-reserver {
+    background : transparent;
+    border: var(--primary) solid 2px;
+    border-radius: 15px;
+}
+
+#btn-reserver:hover {
+    background-color: var(--primary);
+}
+
+                                    /* Partie footer  */
+
+#final {
+
+    background-color: var(--body);
+    height: 40vh;
+    
+}
+
+#final ul li  a {
+    color: var(--primary);
+    list-style: none;
+}
+
+.item h3 {
+    color: var(--white);
+}
+
+.item p {
+    color: var(--primary);
+}
+
+
+@media  screen and (max-width : 320px) {
+    #final {
+        background-color: var(--body);
+        height: 200vh;
+        margin: 0;
+    }
+}
