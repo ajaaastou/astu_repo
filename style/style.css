@@ -176,6 +176,16 @@ li a {
 }
 
 
+#galerie h2 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.carousel-inner {
+    height: 80vh;
+}
+
+
 @media  screen and (max-width : 320px) {
     #final {
         background-color: var(--body);
